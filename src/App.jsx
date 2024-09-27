@@ -14,7 +14,7 @@ function App() {
       {/* <PostCard /> */}
       {/* Hero section */}
       <div className="dark:bg-black">
-        <div className="bg-blue-950 w-full dark:bg-black flex justify-between">
+        <div className="bg-blue-950 w-full dark:bg-black grid grid-cols-1 md:grid-cols-2 ">
           <div className="flex image">
             <div className="my-auto ml-20">
               <div className="flex font-bold space-x-2">
@@ -33,11 +33,16 @@ function App() {
               </Link>
             </div>
           </div>
-          <img
-            src="/assets/News-cuate.png"
-            alt="block"
-            className="max-h-72 object-cover rounded-xl mr-5"
-          />
+          <div
+            className="flex items-center justify-center
+          "
+          >
+            <img
+              src="/assets/News-cuate.png"
+              alt="block"
+              className="max-h-72 object-cover rounded-xl mr-5"
+            />
+          </div>
         </div>
       </div>
       <BlogList />
