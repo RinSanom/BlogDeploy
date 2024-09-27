@@ -106,7 +106,7 @@ export function AboutUs() {
         <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
           <div className="flex flex-col items-center">
             <img
-              src="./public/assets/mentor-1.jpg"
+              src="./assets/mentor-1.jpg"
               alt="Mentor 1"
               className="w-48 h-48 rounded-full mx-auto object-cover"
             />
@@ -117,7 +117,7 @@ export function AboutUs() {
           </div>
           <div className="flex flex-col items-center">
             <img
-              src="./public/assets/mentor-2.jpg"
+              src="./assets/mentor-2.jpg"
               alt="Mentor 2"
               className="w-48 h-48 rounded-full mx-auto object-cover"
             />
@@ -164,7 +164,7 @@ export function AboutUs() {
             {
               name: "Heang Navy",
               role: "Frontend & UX/UI",
-              image: "./assets/navy.jpg",
+              image: "./assets/navy.JPG",
             },
           ].map((member) => (
             <div
