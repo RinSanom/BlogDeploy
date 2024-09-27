@@ -1,0 +1,29 @@
+/* Common styles */
+.app {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+  
+  /* Light theme styles */
+  .app.light {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .app.light button {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* Dark theme styles */
+  .app.dark {
+    background-color: #2c2c2c;
+    color: #f1f1f1;
+  }
+  
+  .app.dark button {
+    background-color: #f1f1f1;
+    color: #2c2c2c;
+  }
+  
