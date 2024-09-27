@@ -139,32 +139,32 @@ export function AboutUs() {
             {
               name: "Rin Sanom",
               role: "Leader",
-              image: "./public/assets/sanom.jpg",
+              image: "./assets/sanom.jpg",
             },
             {
               name: "Kim Chamraoen",
               role: "Frontend & UX/UI",
-              image: "./public/assets/chamraoen.jpg",
+              image: "./assets/chamraoen.jpg",
             },
             {
               name: "Khoy Kimhak",
               role: "PowerPoint & Script",
-              image: "./public/assets/kimhak-pic.jpg",
+              image: "./assets/kimhak-pic.jpg",
             },
             {
               name: "Sorn Sophamarinet",
               role: "Frontend & UX/UI & Presentation",
-              image: "./public/assets/marinet1.jpg",
+              image: "./assets/marinet1.jpg",
             },
             {
               name: "Uy Chakriya",
               role: "Frontend & UX/UI",
-              image: "./public/assets/chakrya.jpg",
+              image: "./assets/chakrya.jpg",
             },
             {
               name: "Heang Navy",
               role: "Frontend & UX/UI",
-              image: "./public/assets/navy.jpg",
+              image: "./assets/navy.jpg",
             },
           ].map((member) => (
             <div

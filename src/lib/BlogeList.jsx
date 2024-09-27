@@ -13,7 +13,6 @@ export default function BlogList() {
     }
     fetchAllBlogs();
   }, []);
-
   return (
     <>
       <div className="flex flex-wrap dark:bg-black">

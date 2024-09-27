@@ -163,25 +163,29 @@ export function NavbarComponent({ username, profileUrl, bio }) {
 
       {/* For small screens (hidden until toggle): */}
       <NavbarCollapse className="md:hidden">
-        <NavbarLink
-          as={Link}
-          to="/"
-          active
-          className={`my-2 md:my-0 md:mr-4 ${
-            location.pathname === "/" ? "text-primary200" : "text-secondary200"
-          } hover:text-primary100 transition duration-200`}
-        >
-          Home
-        </NavbarLink>
-        <NavbarLink
-          as={Link}
-          to="/aboutus"
-          className={`my-2 md:my-0 md:mr-4 ${
-            location.pathname === "/aboutus"
-          } hover:text-primary100 transition duration-200`}
-        >
-          About Us
-        </NavbarLink>
+        <Link>
+          <NavbarLink
+            as={Link}
+            to="/"
+            active
+            className={`my-2 md:my-0 md:mr-4 ${
+              location.pathname === "/"
+                ? "text-primary200"
+                : "text-secondary200"
+            } hover:text-primary100 transition duration-200`}
+          >
+            Home
+          </NavbarLink>
+        </Link>
+        <Link to="/aboutus">
+          <NavbarLink
+            className={`my-2 md:my-0 md:mr-4 ${
+              location.pathname === "/aboutus"
+            } hover:text-primary100 transition duration-200`}
+          >
+            About Us
+          </NavbarLink>
+        </Link>
       </NavbarCollapse>
     </Navbar>
   );

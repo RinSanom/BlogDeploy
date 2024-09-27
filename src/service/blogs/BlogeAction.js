@@ -1,6 +1,8 @@
 export default async function getAllBlogs() {
   try {
-    const response = await fetch(`https://blog-api.automatex.dev/blogs`);
+    const response = await fetch(
+      `https://blog-api.automatex.dev/blogs?sort_by=created_at`
+    );
     const data = await response.json();
     console.log("Data", data.blogs);
     return data?.blogs;
@@ -11,7 +13,9 @@ export default async function getAllBlogs() {
 
 export async function getSingleBlog(title) {
   try {
-    const response = await fetch(`https://blog-api.automatex.dev/blogs/${title}`);
+    const response = await fetch(
+      `https://blog-api.automatex.dev/blogs/${title}`
+    );
     const data = await response.json();
     return data;
   } catch (error) {
