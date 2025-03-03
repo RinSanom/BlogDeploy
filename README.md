@@ -1,8 +1,5 @@
-# React + Vite
+This is a React.js project focused on a blog post platform. It serves as the final project at the Institute of Science and Technology Advanced Development (ISTAD), where I am a scholarship student in the pre-university program. The project is designed to work with a real API, ensuring dynamic and interactive blog functionality.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The platform allows users to create, read, update, and delete blog posts while providing a seamless and responsive user experience. The integration with a real API ensures that data is handled efficiently, making the application practical for real-world use.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project demonstrates my proficiency in React.js, API integration, and front-end development, showcasing my ability to build a functional and engaging web application.
